@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1598537991 source:d:\codes\shareware\keygen\keygen\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<sstream>
+	<ctime>
+
