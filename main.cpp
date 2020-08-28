@@ -29,8 +29,14 @@ long long decryptKey(string encryptedkey)
             continue;
         }
 
-        place = findChar(encryptedkey[i]);
-
+        try
+        {
+            place = findChar(encryptedkey[i]);
+        }
+        catch(exception e)
+        {
+            place = 9;
+        }
         decryptedkey *= 10;
         decryptedkey += place + 1;
     }
